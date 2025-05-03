@@ -3,7 +3,7 @@ As GPS technology becomes increasingly central to navigation, mapping, and auton
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Dependecies
 - Hardware: 4GB RAM and Dual-core Intel Core i5 (Minimum).
-- Software: QGIS, PostgreSQL, PGAdmin (or) DBeaver, OSGeo4W (only Windows).
+- Software: [QGIS](https://qgis.org/download/), PostgreSQL, PGAdmin (or) DBeaver, OSGeo4W (only Windows).
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Help
 - Using OSGeo4W import the json file into PGAdmin. { ogr2ogr -f "PostgreSQL" PG:"host=<host_name> dbname=<database_name> user=postgres password=" "<dataset_location>" -nln <desired_table_name> -a_srs EPSG:<4326 or 3857> -overwrite }
