@@ -13,8 +13,6 @@ As GPS technology becomes increasingly central to navigation, mapping, and auton
 5. [Results](#results)
 6. [Usage Instructions](#usage-instructions)
 7. [Team Members](#team-members)
-8. [License](#license)
-9. [Contact](#contact)
 
 ---
 
@@ -80,7 +78,7 @@ As GPS technology becomes increasingly central to navigation, mapping, and auton
    ```
 2. Load data into PostGIS.
 3. Run SQL scripts in `Code` folder via PGAdmin or psql.
-4. Generate plots and export CSVs using provided Python or R scripts.
+4. Generate plots and export CSVs using provided R scripts.
 5. Visualize results in QGIS or via the interactive dashboards.
 6. Visualize the 3D view of the angle based on individual buildings.
 
